@@ -1,0 +1,157 @@
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Fira Code,monospace;
+}
+
+:root {
+    --font-bold: 32px;
+    --font-mediun: 20px;
+    --font-small: 16px;
+    --font-xsmall:7px;
+    --rickblue: #000000;
+    --rickwhite: #fbfbfb;
+    --rickgray: #aeaeae;
+    --rickgreen1: #c1fcc4;
+    --rickgreen2: #83ec80;
+    --rickgreen3: #57f052;
+    --rickgreen4: #53bb50;
+}
+.nav{
+  width: 550px ;
+  height: 220px;
+  background-image: url("/public/logo.svg");
+  background-position: center;
+  background-size: 600px 400px;
+
+}
+
+body{
+
+  background-image: url("/public/background_page.png");
+
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display{
+  width: 550px;
+  height: 200px;
+
+}
+
+.CardLocation{
+align-items: center;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width:600px;
+height: 80px;
+font-family: 'Fira Code', monospace;
+font-size: 9px;
+overflow: hidden;
+border: 2px solid var(--rickgreen2);
+color: var(--rickwhite);
+gap :5 px;
+}
+
+.input{
+  border-radius: 5px;
+  background-color: var(--rickgreen3) ;
+  color: var(--rickblue);
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 auto 0;
+  min-height: 5px;
+  overflow: hidden;
+  padding: 2px;
+  position: relative;
+  text-align: center;
+  width: 200px;
+}
+
+.input::placeholder{
+  color:var(--rickwhite)
+}
+
+.buscar{
+  background-color: var(--rickgray);
+  margin-top: 5px;
+  display: flex;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 4.85px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+  filter: drop-shadow(13px 7px 4px var(--rickblue));
+  offset:0px , 4.85px ;
+  font-family: 'Fira Code', monospace;
+  color: var(--rickblue);
+
+}
+
+.buscador{
+
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+.principal{
+  width:90%;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:25px;
+
+  justify-content: center;
+}
+
+
+.display-card{
+  width: 150px;
+  height: 300px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  margin-bottom: 30px;
+
+  border: 2px solid var(--rickgreen4);
+  -webkit-box-shadow: 0px 2px 12px 2px var(--rickgreen2);
+  -moz-box-shadow: 0px 2px 12px 2px var(--rickgreen3);
+  box-shadow: 0 2px 12px 2px var(--rickgreen3);
+  color: var(--bg-white);
+  
+}
+
+
+
+.resident-card{
+
+display: flex;
+flex-direction: column;
+font-size: var(--font-xsmall);
+color: var(--rickwhite);  
+}
+
+.resident-card>img{
+  width: 100px;
+  height: 100px;
+}
