@@ -164,8 +164,32 @@ align-items: center;
   font-size: 10px;
 }
 .status{
-  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 8px;
   background-color: #aeaeae;
   font-size: 10px;
   color: var(--rickblue);
+}
+.circle{
+  width: 15px;
+  height: 15px;
+  background-color: #53bb50;
+  border-radius: 25px;
+}
+
+.circle2{
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 25px;
+}
+.circle3{
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  border-radius: 25px;
 }

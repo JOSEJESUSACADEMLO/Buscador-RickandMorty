@@ -12,6 +12,19 @@ const ResidentInfo = ({url}) => {
         .catch(error => console.error(error))
     },[])
 
+    let aux=resident.status
+    let aux2=""
+    if(aux=="Alive"){
+        aux2="circle"
+    }else{
+        if(aux=="Dead"){
+            aux2="circle2"
+        }else{
+            aux2="circle3"
+        }
+        
+    }
+
     return (
       
        <div className='display-card'>
@@ -23,6 +36,8 @@ const ResidentInfo = ({url}) => {
            </section>
            <section className='status'>
             <h2>Status : {resident.status} </h2>
+            <div className={aux2}></div>
+            {console.log(resident.status)}
            </section>
           
            
