@@ -118,15 +118,15 @@ gap :5 px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap:25px;
+  gap:28px;
 
   justify-content: center;
 }
 
 
 .display-card{
-  width: 150px;
-  height: 300px;
+  width: 250px;
+  height: 350px;
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
@@ -143,15 +143,29 @@ gap :5 px;
 
 
 
+
 .resident-card{
 
 display: flex;
 flex-direction: column;
 font-size: var(--font-xsmall);
-color: var(--rickwhite);  
+color: var(--rickwhite); 
+align-items: center; 
 }
 
 .resident-card>img{
-  width: 100px;
-  height: 100px;
+ 
+  width: 250px;
+  height: 200px;
+}
+
+.nombre{
+  margin-top: 5px;
+  font-size: 10px;
+}
+.status{
+  margin-bottom: 3px;
+  background-color: #aeaeae;
+  font-size: 10px;
+  color: var(--rickblue);
 }

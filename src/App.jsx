@@ -32,11 +32,7 @@ function App() {
         .catch(error =>console.error(error))
     }
 
-    const getResidentsData = residentsArray => {
-
-      const url="https://rickandmortyapi.com/api/character"
-    }
-
+   
   
 
 

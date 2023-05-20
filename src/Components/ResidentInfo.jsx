@@ -16,9 +16,17 @@ const ResidentInfo = ({url}) => {
       
        <div className='display-card'>
         <div className='resident-card'>
+        
            <img src={resident.image} alt=""/>
-           <h2>Nombre : {resident.name} </h2>
-           <h2>Status : {resident.status} </h2>
+           <section className='nombre'>
+            <h2>{resident.name} </h2>
+           </section>
+           <section className='status'>
+            <h2>Status : {resident.status} </h2>
+           </section>
+          
+           
+           
            <h2>Origen : {resident.origin?.name} </h2>
           
         </div>
