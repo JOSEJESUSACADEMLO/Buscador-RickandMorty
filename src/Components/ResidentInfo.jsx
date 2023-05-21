@@ -39,11 +39,10 @@ const ResidentInfo = ({url}) => {
             <div className={aux2}></div>
             {console.log(resident.status)}
            </section>
-          
-           
-           
+           <section className='datos'>
            <h2>Origen : {resident.origin?.name} </h2>
-          
+           <h2>Episodios : {resident.episode?.length}</h2>
+           </section>
         </div>
       </div>
    

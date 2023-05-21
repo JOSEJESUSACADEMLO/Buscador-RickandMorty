@@ -50,16 +50,17 @@ body{
 }
 
 .CardLocation{
+margin-left: 310px;
 align-items: center;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-width:600px;
+width: 100vh;
 height: 80px;
 font-family: 'Fira Code', monospace;
 font-size: 9px;
 overflow: hidden;
-border: 2px solid var(--rickgreen2);
+border: 5px solid var(--rickgreen2);
 color: var(--rickwhite);
 gap :5 px;
 }
@@ -122,6 +123,14 @@ gap :5 px;
 
   justify-content: center;
 }
+.principal2{
+  display: flex;
+
+  width:90%;
+  border: 2px solid red;
+  align-items: center;
+}
+
 
 
 .display-card{
@@ -131,7 +140,7 @@ gap :5 px;
   justify-content:center;
   flex-wrap: wrap;
   row-gap: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 
   border: 2px solid var(--rickgreen4);
   -webkit-box-shadow: 0px 2px 12px 2px var(--rickgreen2);
@@ -154,9 +163,10 @@ align-items: center;
 }
 
 .resident-card>img{
- 
-  width: 250px;
+  margin-top: 5px;
+  width: 240px;
   height: 200px;
+
 }
 
 .nombre{
@@ -165,6 +175,7 @@ align-items: center;
 }
 .status{
   display: flex;
+  width: 220px;
   flex-direction: row;
   gap: 5px;
   justify-content: center;
@@ -173,6 +184,8 @@ align-items: center;
   background-color: #aeaeae;
   font-size: 10px;
   color: var(--rickblue);
+  border: 1px solid var(--rickgreen3);
+  align-items: center;
 }
 .circle{
   width: 15px;
@@ -192,4 +205,16 @@ align-items: center;
   height: 15px;
   background-color: yellow;
   border-radius: 25px;
+}
+
+.datos{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:4px;
+  font-size: 10px;
+  border-top: 5px solid var(--rickgreen3);
+  align-items: center;
+  padding-top: 4px;
 }

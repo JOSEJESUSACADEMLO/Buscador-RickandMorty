@@ -52,10 +52,12 @@ function App() {
                   {<button className='buscar' onClick={search}>Search</button>}
         
         </div>
+
+        <div className='principal2'>
        {<Location
         data={isVisible}
         />}
-      
+        </div>
         <div className='principal'>
        {
         residents.map( resident => (
