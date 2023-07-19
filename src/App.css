@@ -1,6 +1,3 @@
-
-
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -21,19 +18,18 @@
     --rickgreen3: #57f052;
     --rickgreen4: #53bb50;
 }
+
 .nav{
   width: 550px ;
   height: 220px;
   background-image: url("/public/logo.svg");
   background-position: center;
   background-size: 600px 400px;
-
 }
 
 body{
 
   background-image: url("/public/background_page.png");
-
 }
 
 .header{
@@ -43,19 +39,15 @@ body{
   align-items: center;
 }
 
-.display{
-  width: 550px;
-  height: 200px;
-
-}
-
 .CardLocation{
-margin-left: 310px;
+align-content: center;
+margin-bottom: 30px;
+margin-top: 30px;
 align-items: center;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-width: 100vh;
+width: 800px;
 height: 80px;
 font-family: 'Fira Code', monospace;
 font-size: 9px;
@@ -63,6 +55,7 @@ overflow: hidden;
 border: 5px solid var(--rickgreen2);
 color: var(--rickwhite);
 gap :5 px;
+padding: 15px;
 }
 
 .input{
@@ -103,16 +96,15 @@ gap :5 px;
   offset:0px , 4.85px ;
   font-family: 'Fira Code', monospace;
   color: var(--rickblue);
-
 }
 
 .buscador{
-
   display: flex;
   flex-direction: row;
   gap: 4px;
   margin-bottom: 20px;
 }
+
 .principal{
   width:90%;
   height: 900px;
@@ -120,17 +112,8 @@ gap :5 px;
   flex-direction: row;
   flex-wrap: wrap;
   gap:28px;
-
   justify-content: center;
 }
-.principal2{
-  display: flex;
-
-  width:90%;
-  border: 2px solid red;
-  align-items: center;
-}
-
 
 
 .display-card{
@@ -141,20 +124,17 @@ gap :5 px;
   flex-wrap: wrap;
   row-gap: 30px;
   margin-bottom: 15px;
-
   border: 2px solid var(--rickgreen4);
   -webkit-box-shadow: 0px 2px 12px 2px var(--rickgreen2);
   -moz-box-shadow: 0px 2px 12px 2px var(--rickgreen3);
   box-shadow: 0 2px 12px 2px var(--rickgreen3);
   color: var(--bg-white);
-  
 }
 
 
 
 
 .resident-card{
-
 display: flex;
 flex-direction: column;
 font-size: var(--font-xsmall);
@@ -166,13 +146,13 @@ align-items: center;
   margin-top: 5px;
   width: 240px;
   height: 200px;
-
 }
 
 .nombre{
   margin-top: 5px;
   font-size: 10px;
 }
+
 .status{
   display: flex;
   width: 220px;
@@ -187,6 +167,7 @@ align-items: center;
   border: 1px solid var(--rickgreen3);
   align-items: center;
 }
+
 .circle{
   width: 15px;
   height: 15px;
@@ -200,6 +181,7 @@ align-items: center;
   background-color: red;
   border-radius: 25px;
 }
+
 .circle3{
   width: 15px;
   height: 15px;
