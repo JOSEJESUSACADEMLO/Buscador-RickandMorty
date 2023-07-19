@@ -200,3 +200,30 @@ align-items: center;
   align-items: center;
   padding-top: 4px;
 }
+
+
+@media (max-width:520px){
+
+
+
+  .CardLocation{
+    align-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    font-family: 'Fira Code', monospace;
+    font-size: 9px;
+    overflow: hidden;
+    border: 5px solid var(--rickgreen2);
+    color: var(--rickwhite);
+    gap :5 px;
+    padding: 15px;
+    }
+    
+
+}
